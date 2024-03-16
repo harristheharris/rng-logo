@@ -1,12 +1,12 @@
 //create the questions
 
 const questions = [
-    { //use this data as a top bar display
+    /* { //use this data as a top bar display
         type: "input",
         message: "What is your GitHub username?",
         name: "username-github"
     },
-    /* { //funsies
+    { //funsies
         type: "confirm",
         message: "Would you like to generate a logo?",
         name: "yesNoLogo"
