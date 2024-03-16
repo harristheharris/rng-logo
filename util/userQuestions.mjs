@@ -41,3 +41,5 @@ const questions = [
         name: "questFontColor"
     }
 ]
+
+module.exports = questions;
