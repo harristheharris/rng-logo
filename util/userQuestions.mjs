@@ -33,7 +33,17 @@ const questions = [
     {
         type: "input",
         message: "Enter three characters for your logo",
-        name: "questString"
+        name: "questString",
+        validate: (string) => {
+            const stg = [...string];
+            if (stg.length != 2 ) {
+                return "Please enter 3 characters for your logo";
+            }
+
+            else {
+                return true;
+            }
+        }
     },
     {
         type: "input",
@@ -42,4 +52,4 @@ const questions = [
     }
 ]
 
-module.exports = questions;
+export default questions;

@@ -1,4 +1,4 @@
-const Circle = require('../lib/circle.js')
+const Circle = require('../lib/circle.mjs').default
 
 //describe is grouping this test. it takes two parameters. The first is a description (usually a string I think?) and a callback function
 describe('Circle', () => {
